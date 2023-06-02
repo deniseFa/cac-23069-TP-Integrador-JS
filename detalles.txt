@@ -1,0 +1,5 @@
+git init: Crear un repositorio LOCAL
+git add nombreArchivo: Agrega el archivo al control de git
+git commit -m"comentario"
+git log 
+git config --list

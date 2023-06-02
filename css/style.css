@@ -1,0 +1,198 @@
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+ *{
+     font-family: 'Open Sans', sans-serif;
+}
+/*Slider*/
+ .fondo-negro {
+     background: black;
+}
+ .carousel-control-next, .carousel-control-prev {
+     width: 6% !important;
+}
+ .slider-principal{
+     background-image: url(../img/ba1.jpg);
+     width: 100% !important;
+     opacity: 0.3;
+     display: inline-block;
+     background-size: cover;
+     background-position: center;
+     height: 100%;
+}
+ .imagen-de-fondo-1 {
+     background-image: url(../img/ba1.jpg);
+}
+ .imagen-de-fondo-2 {
+     background-image: url(../img/ba2.jpg);
+}
+ .imagen-de-fondo-3 {
+     background-image: url(../img/ba3.jpg);
+}
+ .carousel-item {
+     height: 600px;
+     overflow: hidden;
+}
+ .text-carousel {
+     text-align: right;
+     width: 550px;
+     left: auto !important;
+     right: 140px !important;
+     bottom: 140px !important;
+}
+ .botones-slider {
+     text-align: -webkit-right;
+}
+/*badgles*/
+ .badge {
+     margin-bottom: 14px;
+}
+ span.badge.badge-warning {
+     color: black;
+     text-decoration: none;
+     background-color: #FFC107;
+}
+ .badge-secondary {
+     color: #fff;
+     background-color: #6c757d;
+}
+ .badge-danger {
+     color: #fff;
+     background-color: #dc3545;
+}
+ .badge-info {
+     color: #fff;
+     background-color: #17a2b8;
+}
+/*formulario*/
+ button.btn.btn-lg.btn-block.boton-de-formulario {
+     width: 100%;
+     margin-top: 1em;
+     background: #96C93E;
+     color: white;
+}
+ span.text-sub {
+     border-bottom: 1px solid;
+     border-bottom-style: dashed;
+}
+ p.texto-form {
+     text-align: center;
+     font-size: 14px;
+     padding: 8px 15px;
+}
+/*seccion vacaciones*/
+ .banner-seccion {
+     width: 100%;
+     height: 450px !important;
+     background-size: cover;
+     background-image: url(../img/honolulu.jpg);
+     background-position: center center;
+}
+ .bordes-mobile {
+     border-left: 1px solid white;
+}
+/*footer*/
+ footer.footer {
+     background: rgb(27,55,67);
+     background: -moz-linear-gradient(90deg, rgba(27,55,67,1) 0%, rgba(30,83,114,1) 100%);
+     background: -webkit-linear-gradient(90deg, rgba(27,55,67,1) 0%, rgba(30,83,114,1) 100%);
+     background: linear-gradient(90deg, rgba(27,55,67,1) 0%, rgba(30,83,114,1) 100%);
+     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1b3743",endColorstr="#1e5372",GradientType=1);
+     color: white;
+}
+ .copy-footer {
+     background: #132730 !important;
+     font-size: 12px;
+     padding: 10px;
+}
+ .nav-footer {
+     display: flex;
+     text-align-last: center;
+     padding: 1em 0;
+     align-items: center;
+}
+ @media (max-width: 767px) {
+    /*slider*/
+     #carouselExample {
+         height: 500px !important;
+         overflow: hidden;
+    }
+     .carousel-inner {
+         height: 500px !important;
+    }
+     .carousel-item {
+         max-height: 500px;
+    }
+     .carousel-caption {
+         text-align: center;
+         bottom: 0;
+         left: 0;
+         right: 0;
+         padding: 1rem;
+         background-color: rgba(0, 0, 0, 0.5);
+         color: #fff;
+    }
+     .banner-imagen {
+         height: 100%;
+         width: auto !important;
+    }
+  
+    .botones-slider.pt-2 {
+      display: grid;
+    }
+  
+     .botones-slider.pt-2>button.btn {
+       font-size: 12px;
+   }
+  
+    .botones-slider button.btn {
+      margin-bottom: 7px; 
+    }
+
+    /*textos del banner*/
+     .carousel-caption.position-absolute.p-3.text-carousel {
+         left: 7% !important;
+         right: 7% !important;
+         width: 86%;
+         text-align: center !important;
+         text-align-last: center;
+         font-size: 16px;
+         top: 25px;
+         background: transparent;
+    }
+     p.text-end.text-white {
+         text-align: center !important;
+    }
+  
+  
+    /*miamiiiii*/
+     .bordes-mobile {
+         border: none;
+         text-align: center ;
+         font-size: 14px;
+         line-height: 31px;
+    }
+    /*footer*/
+     .nav-footer {
+         display: contents;
+    }
+     a.nav-link.bg-transparent.border-0.w-100.mx-1.text-white.nav-footer-mob {
+         font-size: 13px;
+         padding: 1em;
+         text-align-last: auto;
+         border-bottom: 1px solid #ffffff21 !important;
+    }
+     br.saltos {
+         display: none;
+    }
+}
+ 
+
+/*botones*/
+
+.botones-anchos {
+    width: 100%;
+}
+
+.btn-verde {
+    background: #96C93E !important;
+    color: white !important;
+}
